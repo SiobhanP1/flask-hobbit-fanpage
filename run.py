@@ -19,6 +19,11 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/careers")
+def careers():
+    return render_template("careers.html")
+
+
 # Must set debug to False when finished developing.
 if __name__ == "__main__":
     app.run(
